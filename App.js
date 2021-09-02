@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { StyleSheet, Text, View, FlatList } from 'react-native';
+import { StyleSheet, Text, View, FlatList,ScrollView } from 'react-native';
 import Courses from './Components/Courses';
 export default class App extends Component{
  
@@ -18,14 +18,18 @@ export default class App extends Component{
 
   render(){
     return (
-      <View style={styles.container}>
+      <ScrollView>
+     <View style={styles.container}>
         <Text style={styles.text1}>Cursos</Text>
         <FlatList
+          vertical
           data={this.state.data}
           keyExtractor={(item)=>item.id}
           renderItem={({item})=><Courses data={item} />}
         />
       </View>
+      </ScrollView>
+ 
     );
   }
 }
