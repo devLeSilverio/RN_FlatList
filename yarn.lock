@@ -1132,6 +1132,11 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@expo-google-fonts/barlow@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/barlow/-/barlow-0.2.0.tgz#c96eed786cc5beffd6a3be779c1de618f8183c6c"
+  integrity sha512-6pJM6qQ9v5xqMjVSfJeAH4U648AXoV6VPET57MtZkml8GjNL/e6+loP/mZPWHkybxIn41ZF8CeHbDIoKbC+xeQ==
+
 "@expo/config-plugins@2.0.4":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-2.0.4.tgz#955fd70a2aeefbe99ec71cecb1d7ea7b626dc79e"
